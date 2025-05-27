@@ -68,16 +68,16 @@ function Header() {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
 
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Africa" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Africa</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Afrika" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Afrika</Link>
 
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Europe" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Europe</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Avropa" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Avropa</Link>
 
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Oceania" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Oceania</Link>
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Asia" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Asia</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Okeaniya" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Okeaniya</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Asiya" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Asiya</Link>
 
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Americas" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Americas</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Amerika" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Amerika</Link>
 
-                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Antarctic" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Antarctic</Link>
+                                <Link onClick={() => setMobileMenuOpen(false)} rel="noopener noreferrer" to="all/subReg/Antarktida" className="flex text-2xl items-center px-4 -mb-1 border-b-2 dark:border-transparent">Antarktida</Link>
                                 <div className='ml-3'>
                                     <button type="button" onClick={() => { setDark(!dark) }} className="hs-dropdown-toggle hs-dark-mode group flex items-center text-gray-600 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500">
                                         <svg className={"hs-dark-mode-active:hidden w-8 h-8 " + (dark ? "block" : "hidden")} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg>
